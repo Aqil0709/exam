@@ -4,7 +4,7 @@ import axios from 'axios';
 const api = axios.create({
   // ✨ FIX: Point directly to the backend server's address and port.
   // This ensures all API calls from the frontend go to the correct server.
-  baseURL: 'http://localhost:5000/api', 
+  baseURL: 'https://exam-6m1b.onrender.com', 
   headers: {
     'Content-Type': 'application/json',
   },
